@@ -1,0 +1,23 @@
+{
+  "name": "dsh-ops-health",
+  "description": "One-click health check for a dsh deployment: a sidebar button runs the ops kit's check-health.ps1 (hidden PowerShell) through a plain HTTP route and renders a structured report. The route is independent of the tool registry, so the button still works when agent tool calls break.",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "license": "MIT"
+}

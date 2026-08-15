@@ -1,0 +1,7 @@
+# dsh-ops-health bundle patch: mounts the host route row; the dsh.client
+# metadata makes the same package's ./client the browser button face.
+# Install: `dsh plugin --profile web add <path-or-git-url>` or add the same row
+# manually to the profile's cordis.patch.yml.
+- insert:
+    - id: ops-health
+      name: 'dsh-ops-health'
