@@ -34,7 +34,7 @@ dsh plugin --profile web remove dsh-ops-health
 ## 注意
 
 - 官方 `dsh plugin add` 在 Windows 下**路径含空格会炸**（cmd 按空格拆参数）：
-  用 git URL 无此问题；本地路径安装需用 8.3 短路径（如 `C:\Users\GUOZIF~1\...`）
+  用 git URL 无此问题；本地路径安装需用 8.3 短路径（形如 `C:\Users\SHORTNA~1\...`）
 - 卸载后 node_modules 可能留死目录（pnpm 惰性清理），不影响运行
 
 MIT License
