@@ -1,5 +1,7 @@
 # dsh-ops-health
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) · [Awesome DeepSeek Harness Plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
+
 DeepSeek Harness 一键健康检查插件：侧边栏「🩺 健康检查」按钮 → 纯 HTTP 路由
 `/ops/health` → 隐藏窗口跑 `check-health.ps1`（8 项体检）→ 结构化报告卡片。
 
